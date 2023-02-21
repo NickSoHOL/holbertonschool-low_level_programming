@@ -10,7 +10,8 @@
  *
  * Return: Always 0.
  **/
-int main() {
+int main(void)
+{
 srand(time(NULL));
 int n = rand() % 201 - 100;
 printf("%d ", n);
