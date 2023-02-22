@@ -10,17 +10,16 @@
  *
  * Return: Always 0.
  **/
-int main(void)
+int main(void)  
 {
-srand(time(NULL));
-int n = rand() % 201 - 100;
-printf("%d ", n);
-if (n > 0) {
-printf("is positive\n");
-} else if (n < 0) {
-printf("is negative\n");
-} else {
-printf("is zero\n");
-}
-return 0;
+int n;  
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n > 0)
+printf("%d is positive\n", n);
+else if (n < 0)
+printf("%d is negative\n", n);
+else
+printf("%d is zero\n", n);
+return (0); 
 }
