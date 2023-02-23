@@ -8,8 +8,10 @@
  * Return: Always 0.
  */
 int main(void)
+{
 int num;
-for (num = 0; num < 10; num++) {
+for (num = 0; num < 10; num++)
+{
 int num2;
 for (num2 = num; num2 < 10; num2++)
 {
