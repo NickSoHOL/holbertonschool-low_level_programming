@@ -3,9 +3,9 @@
  */
 #include <stdio.h>
 /**
- * main - prints the alphabet in lowercase, followed by a new line.
+ * main - Prints "the alphabet in lowercase, followed by a new line.
  */
-void print_alphabet(void)
+int main print_alphabet(void)
 {
 char c;
 for (c = 'a'; c <= 'z'; c++)
