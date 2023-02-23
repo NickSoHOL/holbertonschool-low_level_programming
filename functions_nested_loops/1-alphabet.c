@@ -5,7 +5,7 @@
 /**
  * main - Prints "the alphabet in lowercase, followed by a new line.
  */
-void print_alphabet(void)
+int main(void)
 {
 char letter;
 for (letter = 'a'; letter <= 'z'; letter++)   
