@@ -1,7 +1,7 @@
 /*
  * File: 1-alphabet.c
  */
-#include <stdio.h>
+#include "main.h"
 /**
  * main - Prints "the alphabet in lowercase, followed by a new line.
  */
