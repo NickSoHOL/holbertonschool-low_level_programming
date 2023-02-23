@@ -7,14 +7,14 @@
  * @n: The integer to be computed.
  * Return: The absolute value of the integer.
  **/
-int _abs(int n)
+int _abs(int)
 {
-if (num < 0)
+if (n < 0)
 {
-return -num;
+return -n;
 }
 else
 {
-return num;
+return n;
 } 
 }
