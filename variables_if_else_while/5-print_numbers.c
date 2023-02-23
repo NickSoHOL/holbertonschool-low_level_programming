@@ -8,6 +8,7 @@
  * Return: Always 0.
  */
 int main(void)
+int num;
 for (int i = 0; i < 10; i++)
 {
 printf("%d\n", i);
