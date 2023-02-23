@@ -1,7 +1,7 @@
 /*
  * File: 0-putchar.c
  */
-#include "_putchar"
+#include <stdio.h>
 /**
  * main - Prints "_putchar" followed by a new line.
  *
@@ -18,5 +18,5 @@ putchar('h');
 putchar('a');
 putchar('r');
 putchar('\n');
-return 0;
+return (0);
 }
