@@ -1,7 +1,7 @@
 /*
  * File: 9-fizz_buzz.c
  */
-#include "main.h"
+#include <stdio.h>
 /**
  * main - The “Fizz-Buzz test” is an interview question designed
  *        to help filter out the 99.5% of programming job candidates
