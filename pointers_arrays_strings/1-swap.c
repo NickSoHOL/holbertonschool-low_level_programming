@@ -6,7 +6,7 @@
  * 1-swap.c - Swaps the values of two integers.
  *
  **/
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 int temp = *a;
 *a = *b;
