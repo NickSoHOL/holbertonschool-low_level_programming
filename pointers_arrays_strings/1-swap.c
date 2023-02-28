@@ -1,4 +1,4 @@
-1/*
+/*
  * File: 1-swap.c
  */
 #include <stdio.h>
