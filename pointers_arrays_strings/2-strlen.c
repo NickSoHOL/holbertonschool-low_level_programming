@@ -9,8 +9,11 @@
  **/
 int _strlen(char *s)
 {
-char *str = "Hello, world!";
-int len = _strlen(str);
-printf("The length of \"%s\" is %d\n", str, len);
-return (0); 
+int len = 0;
+while (*s != '\0')
+{
+len++;
+s++;
+}
+return (len);
 }
